@@ -1,7 +1,7 @@
 
 # Christmas Coding Challenge 2024 - JavaScript Solutions
 
-Welcome to my **Christmas Coding Challenge 2024** repository! This project is organized by the **Women Coding Community**. Through this challenge, I'm committing to solving one LeetCode problem each day using JavaScript. The goal is to build consistent coding habits, improve my problem-solving skills, and deepen my understanding of algorithms and data structures.
+Welcome to my **Christmas Coding Challenge 2024** repository! This project is organized by the **[Women Coding Community](https://womencodingcommunity.com/)**. Through this challenge, I'm committing to solving one [LeetCode](https://leetcode.com/) problem each day using JavaScript. The goal is to build consistent coding habits, improve my problem-solving skills, and deepen my understanding of algorithms and data structures.
 
 ## 📅 Challenge Goals
 
