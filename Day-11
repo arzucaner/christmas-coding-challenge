@@ -1,0 +1,19 @@
+Question:
+
+Debouncing is a programming pattern used to limit the number of times a function is called over time. Implement a custom debounce function in JavaScript.
+
+The debounce function should take two arguments:
+fn - The function to debounce.
+delay - The number of milliseconds to wait before invoking fn.
+The debounce function should return a new function that, when called, will execute fn only after delay milliseconds have passed since the last call. If the returned function is called again before delay milliseconds have passed, the timer resets.
+
+Solution:
+
+function debounce(fn, delay) {
+    let timer;
+
+    return function (...args) {
+        clearTimeout(timer); 
+        timer = setTimeout(() => fn(...args), delay); 
+    };
+}
