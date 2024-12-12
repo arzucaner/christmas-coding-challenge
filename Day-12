@@ -1,0 +1,10 @@
+Question
+
+Throttling is a programming pattern used to limit the number of times a function is called over a specified period. Implement a custom throttle function in JavaScript.
+
+The throttle function should take two arguments:
+
+fn - The function to throttle.
+delay - The number of milliseconds to wait before allowing fn to be invoked again.
+The throttle function should return a new function that ensures fn is executed at most once in every delay milliseconds, regardless of how many times it is called during that period.
+
