@@ -1,0 +1,6 @@
+Question
+
+Memoization is an optimization technique that stores the results of expensive function calls and returns the cached result when the same inputs occur again. Implement a custom memoize function in JavaScript.
+
+The memoize function should take a single argument fn, which is the function to be memoized. It should return a new function that behaves exactly like fn, except that it caches the results of previous calls for the same arguments.
+
