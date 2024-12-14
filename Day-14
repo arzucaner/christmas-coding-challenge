@@ -1,0 +1,15 @@
+Question:
+
+An Event Emitter is a pattern used to manage events in a system. Implement a custom EventEmitter class that allows developers to subscribe to events, emit events, and unsubscribe from events.
+
+The class should have the following methods: subscribe(event, callback):
+
+Subscribes the given callback to the specified event.
+Returns an object with a unsubscribe() method to remove the subscription.
+emit(event, args):
+
+Calls all the callbacks subscribed to the specified event with the provided arguments (args).
+If no subscribers exist for the event, nothing should happen.
+
+Solution: 
+
