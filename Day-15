@@ -1,0 +1,24 @@
+Question
+
+Write a function retry that accepts two parameters:
+
+fn: An asynchronous function that may fail (reject).
+retries: The number of times to retry fn if it fails.
+The retry function should call the asynchronous function fn. If it fails (rejects), it should automatically retry calling fn up to retries times. If all retries fail, the function should reject with the last error.
+
+Solution:
+
+async function retry(fn, retries) {
+    let lastError;
+
+    for (let i = 0; i <= retries; i++) {
+        try {
+            return await fn();
+        } catch (error) {
+            lastError = error;
+            if (i === retries) {
+                throw lastError; 
+            }
+        }
+    }
+}
