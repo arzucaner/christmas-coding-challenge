@@ -1,0 +1,24 @@
+Question
+
+Write a function groupBy that takes an array of elements and a callback function, and returns an object where the keys are the results of calling the callback function on each element, and the values are arrays of elements that produced the corresponding key.
+
+Constraints:
+
+The input array can contain any type of elements (numbers, strings, objects, etc.).
+The callback function will be applied to each element in the array to generate the grouping key.
+
+Solution:
+
+function groupBy(array, callback) {
+    const result = {};
+
+    for (const element of array) {
+        const key = callback(element); 
+        if (!result[key]) {
+            result[key] = []; 
+        }
+        result[key].push(element); 
+    }
+
+    return result;
+}
