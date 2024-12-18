@@ -1,0 +1,11 @@
+Question
+
+Write a function flatten that takes a nested array (an array that may contain other arrays at any depth) as input and returns a single flattened array containing all the elements.
+
+Constraints:
+
+The input array may contain numbers, strings, or other arrays (nested at any depth).
+You cannot use built-in methods like Array.prototype.flat().
+
+Solution:
+
