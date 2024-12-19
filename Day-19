@@ -1,0 +1,23 @@
+Question:
+
+Write a function zip that takes two arrays and returns an array of tuples (pairs), where the elements at the same index in each array are paired together.
+
+If one array is longer than the other, ignore the extra elements from the longer array.
+
+Constraints:
+
+Both input arrays will contain only numbers or strings.
+The function should return an empty array if either input array is empty.
+
+Solution:
+
+function zip(array1, array2) {
+    const length = Math.min(array1.length, array2.length); // Determine the smaller length
+    const result = [];
+
+    for (let i = 0; i < length; i++) {
+        result.push([array1[i], array2[i]]); // Pair elements at the same index
+    }
+
+    return result;
+}
