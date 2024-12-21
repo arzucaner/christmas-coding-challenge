@@ -1,0 +1,14 @@
+Question:
+
+Write a function pipe that takes an array of functions and returns a new function. The returned function takes an initial value as an argument and passes it through each function in the array from left to right.
+
+Each function in the array should take a single argument and return a value.
+If the array of functions is empty, the returned function should simply return the initial value.
+
+Solution:
+
+function pipe(functions) {
+    return function (initialValue) {
+        return functions.reduce((value, fn) => fn(value), initialValue);
+    };
+}
