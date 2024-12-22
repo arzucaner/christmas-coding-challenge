@@ -1,0 +1,13 @@
+Question:
+
+Write a function customMap that replicates the behavior of the built-in Array.prototype.map method. The customMap function should take an array and a callback function as arguments and return a new array where each element is the result of calling the callback function on the corresponding element of the input array. You cannot use the built-in map method.
+
+Constraints:
+The input array may contain numbers, strings, or objects.
+The callback function will receive three arguments:
+The current element.
+The index of the current element.
+The entire array.
+
+Solution:
+
