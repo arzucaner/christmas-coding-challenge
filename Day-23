@@ -1,0 +1,14 @@
+Question:
+
+Write a function customFilter that replicates the behavior of the built-in Array.prototype.filter method. The customFilter function should take an array and a callback function as arguments and return a new array containing only the elements for which the callback function returns true.
+
+You cannot use the built-in filter method.
+
+Constraints:
+The input array may contain numbers, strings, or objects.
+The callback function will receive three arguments:
+The current element.
+The index of the current element.
+The entire array.
+
+Solution:
