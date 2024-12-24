@@ -1,0 +1,15 @@
+Question:
+
+Write a function customReduce that replicates the behavior of the built-in Array.prototype.reduce method. The customReduce function should take an array, a callback function, and an initial value as arguments, and return a single value that results from applying the callback function to each element of the array. You cannot use the built-in reduce method.
+
+Constraints:
+
+The input array may contain numbers, strings, or objects.
+The callback function will receive four arguments:
+The accumulator (the running total/result).
+The current element.
+The index of the current element.
+The entire array.
+
+Solution:
+
