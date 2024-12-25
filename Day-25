@@ -1,0 +1,12 @@
+Question:
+
+Write a function shuffle that takes an array and returns a new array with its elements randomly shuffled. The original array should remain unchanged.
+
+Constraints:
+The input array can contain numbers, strings, or objects.
+The output array should contain the same elements as the input array, but in a random order.
+Each element should have an equal probability of being in any position.
+
+Solution:
+
+
